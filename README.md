@@ -26,3 +26,17 @@ by one click you can just delete it from your inventory table.
 
 To add a calming design to the app, I used your drawing as a background for obvious reasons.... (:
 
+Adding:
+![pic1](https://user-images.githubusercontent.com/93192407/149654087-ada5845b-24fb-4e66-a055-eb7d82e6691b.jpg)
+Editing:
+<img width="1031" alt="pic3" src="https://user-images.githubusercontent.com/93192407/149654170-22d8a8f6-7b06-4969-aa8e-3dee05deb005.png">
+Edit result:
+![pic4](https://user-images.githubusercontent.com/93192407/149654331-18ee97e5-7afd-4551-8f7d-72d205a1a612.jpg)
+Deleting:
+![pic5](https://user-images.githubusercontent.com/93192407/149675627-3ee38e71-b4a5-4a1e-a485-63ff960f5f80.jpg)
+
+Delete result:
+![pic6](https://user-images.githubusercontent.com/93192407/149675582-0858acc5-b261-4e1c-b67c-03783c9a029b.jpg)
+
+
+
