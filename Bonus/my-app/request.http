@@ -1,0 +1,36 @@
+
+@website = http://localhost:3000
+
+### GET
+
+GET {{website}}/shoes
+
+### GET
+
+GET {{website}}/shoes/1112021375
+
+
+### POST
+POST {{website}}/shoes/add
+Content-Type: application/json
+
+{
+    "id":222202142,
+    "brand":"Adidas",
+    "model":"Ultraboost",
+    "year": 2021,
+    "size": 42,
+    "amount": 25
+}
+
+### PUT
+PUT {{website}}/shoes/update/Ultraboost
+Content-Type: application/json
+
+{
+    "newAmount": 27
+}
+
+### DELETE
+
+DELETE {{website}}/shoes/delete/""

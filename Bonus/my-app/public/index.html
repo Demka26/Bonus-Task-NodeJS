@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Shoes Stock</title>
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+   <style>
+        body {
+          background-image: url("background.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        h3{
+            font-family: 'Luckiest Guy', cursive;
+            color:black;
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+        }
+        h1{
+            font-family: 'Luckiest Guy', cursive;
+            color:black;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        label{
+            font-family: 'Ultra', serif;
+            color:black;
+        }
+    </style>
+</head>
+<body onload="get()">
+
+    <div class="container">
+    <h1 class="text-center">Shoes Stock</h1>
+
+    <table id="shoes" border="1" class="table table-dark table-hover"></table>
+
+    <!-- POST request: -->
+    <h3 class="text-center">Add a new shoe</h3>
+    <form style="width: 100%;">
+        <div class="row g-3">
+            <!--  shoe id -->
+            <div class="col-sm-2">
+                <label for="sid" class="form-label">ID: </label>
+                <input type="number" id="sid" required class="form-control"/>
+            </div>
+            <!--  shoe brand -->
+            <div class="col-sm-2">
+                <label for="sbrand" class="form-label">Brand: </label>
+                <input type="text" id="sbrand" required class="form-control"/>
+            </div>
+         <!--  shoe model -->
+            <div class="col-sm-3">
+                <label for="smodel" class="form-label">Model: </label>
+                <input type="text" id="smodel" required class="form-control"/>
+            </div>
+            <!--  shoe year -->
+            <div class="col">
+                <label for="syear" class="form-label">Year: </label>
+                <input type="number" id="syear" required class="form-control"/>
+            </div>
+            <!--  shoe size -->
+            <div class="col">
+                <label for="ssize" class="form-label">Size: </label>
+                <input type="number" id="ssize" required class="form-control"/>
+            </div>
+            <!--  shoe amount -->
+            <div class="col">
+                <label for="samount" class="form-label">Amount: </label>
+                <input type="number" id="samount" required class="form-control"/>
+            </div>
+        </div>
+
+        <button onclick="post()" class="btn btn-success" style="width: 20%; margin-top:3%; margin-left: 38%;">Add</button>
+            
+        
+    </div>
+    </form>
+
+</div>
+
+    <script src="script.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
